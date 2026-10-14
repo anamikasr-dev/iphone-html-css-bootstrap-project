@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+gap: 30px;
+
+}
+ .alert{
+    text-align: center;
+   
+ }
+
+.home1{
+    min-height: 100vh;
+   background: url(./assets/logo.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+ 
+}
+.head-con{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+ 
+  
+}
+.head-con h1{
+    font-size: 50px;
+    margin-top: 35px;
+}
+.head-con h5{
+    font-size: 30px;
+}
+ .home2{
+    background: url(./assets/iphone.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ text-align: center;
+ }
+ .iphone-pro{
+   color: white;
+ }
+.button2{
+width: 80px;
+height: 50px;
+}
+.iphone-pro p{
+    font-size: 30px;
+}
+.home3{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url(./assets/duo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.duo-con p{
+    font-size: 20px;
+    color: gray;
+}
+.duo-but{
+    height: 40px;
+    margin-left: 10px;
+}
+.home4{
+    min-height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.card1 img{
+   width: 750px;
+   height: 600px;
+   
+}
+
+.card1{
+    position: relative;
+}
+.card1p{
+    position: absolute;
+    top: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+}
+.card1-con{
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+font-weight: 600;
+}
+
+
+
+.cards{
+    display: flex;
+   justify-content: center;
+    gap: 10px;
+}
+.card2{
+    position: relative;
+}
+.card2p{
+    position: absolute;
+    top: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.card2 img{
+    width: 750px;
+    height: 600px;
+    
+}
+.con-but1{
+    height: 50px;
+    width: 180px;
+    margin-top: 10px;
+}
+.con-but2{
+    width: 80px;
+    margin-top: 10px;
+}
+.con2but{
+    position: absolute;
+    top: 10px;
+}
+
+/* card3 */
+.home5{
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.card3 img{
+    width: 750px;
+    height: 600px;
+    
+    
+}
+.cards2{
+  display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+.card4 img{
+    width: 750px;
+    height: 600px;
+   
+    
+}
+.card3{
+    position: relative;
+}
+.card3p{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.card4{
+    position: relative;
+}
+.card4p{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* card4 */
+.home6{
+ min-height: 80vh;
+margin-top: 20px;
+}
+.cards3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card5 img{
+    width: 750px;
+    height: 600px;
+}
+.card6 img{
+    width: 750px;
+    height: 600px;
+}
+.card5{
+    position: relative;
+}
+.card5p{
+    position: absolute;
+    bottom: 80px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.card6{
+    position: relative;
+}
+.card6p{
+    position: absolute;
+   top: 30px;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+/* corousel */
+.home7{
+    margin-top: 30px;
+    overflow: hidden;
+    height: 90vh;
+}
+.first{
+    position: relative;
+}
+.monarch{
+    position: absolute;
+    top: 70px;
+   left: 50px;
+    color: white;
+}
+.monarch h1{
+    font-size:140px;
+}
+.monarch h4{
+    font-size: 60px;
+}
+.secend{
+    position: relative;
+}
+.slow{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    text-align: ce;
+}
+.slow h1{
+    font-size: 150px;
+}
+.home8 p{
+    color: gray;
+    font-size: 14px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.foot ul{
+    list-style: none;
+}
+.foot li{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+@media (max-width:769px) {
+   .cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+    .cards2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .cards3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   }
+   .cards img{
+    object-fit: cover;
+   }
+   .foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+}
+
+
+
+
+
+
+
